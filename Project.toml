@@ -1,7 +1,7 @@
 name = "jtcloudmiletusdemo"
 uuid = "3f519aa2-be51-11e9-049a-a1087f5b69ed"
 authors = ["Pradeep Mudlapur <pradeep@juliacomputing.com>"]
-version = "0.1.0"
+version = "0.1.1"
 
 [deps]
 Miletus = "3ae66bd7-4256-56cd-8b87-f856965b5ccf"
