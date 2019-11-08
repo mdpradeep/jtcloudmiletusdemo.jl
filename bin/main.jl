@@ -1,4 +1,5 @@
-@everywhere Pkg.add("Miletus")
+## @everywhere Pkg.add("Miletus")
+@info "Running jcloudmiletusdemo !"
 @everywhere using Miletus, DelimitedFiles, Dates, Distributed
 @everywhere run(`wget -q https://externalshare.blob.core.windows.net/demos/miletus/portfolio.csv.1M`)
 @everywhere p = readdlm("portfolio.csv.1M", ',', header=true)[1];
