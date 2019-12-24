@@ -1,4 +1,5 @@
-## @everywhere Pkg.add("Miletus")
+using Distributed
+@everywhere Pkg.add("Miletus")
 @info "Running jcloudmiletusdemo !"
 ENV["DRIVER_SCRIPT"] = @__FILE__
 @info "Driver script ", ENV["DRIVER_SCRIPT"]
