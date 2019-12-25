@@ -1,6 +1,6 @@
 using Distributed
 @everywhere Pkg.add("Miletus")
-@info "Running jcloudmiletusdemo - updated !"
+@info "Running jcloudmiletusdemo - updated again !"
 ENV["DRIVER_SCRIPT"] = @__FILE__
 @everywhere using Miletus, DelimitedFiles, Dates, Distributed
 @everywhere run(`wget -q https://externalshare.blob.core.windows.net/demos/miletus/portfolio.csv.1M`)
