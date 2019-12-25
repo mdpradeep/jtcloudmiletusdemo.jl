@@ -1,4 +1,5 @@
-## @everywhere Pkg.add("Miletus")
+using Distributed
+@everywhere Pkg.add("Miletus")
 @info "Running jcloudmiletusdemo - updated !"
 @everywhere using Miletus, DelimitedFiles, Dates, Distributed
 @everywhere run(`wget -q https://externalshare.blob.core.windows.net/demos/miletus/portfolio.csv.1M`)
